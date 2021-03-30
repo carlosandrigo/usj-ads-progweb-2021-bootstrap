@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="jquery-3.5.1.slim.min.js" ></script> 
+    <script src="bootstrap.bundle.min.js" ></script>
+    <script src="popper.min.js"></script>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+          <img src="afirma.jpg" alt="Logo" style="width:40px;">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Produtos.html">Produtos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contato.html">Contato</a>
+            </li>
+            
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                Links úteis
+              </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="http://www.b3.com.br/pt_br/market-data-e-indices/servicos-de-dados/market-data/consultas/mercado-de-derivativos/indicadores/indicadores-financeiros/">Indicadores</a>
+                <a class="dropdown-item" href="http://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm">CDC</a>
+                <a class="dropdown-item" href="https://fiesc.com.br/">FIESC</a>
+              </div>
+            </li>
+          </ul>
+        </nav> 
+      </div>
+    <div class="container mt-3">
+        <h2>Cadastre-se para receber informações sobre promoções</h2>
+        <form>
+            <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="validationDefault01">Nome</label>
+                <input type="text" class="form-control" id="validationDefault01" value="Nome" required>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label for="validationDefault02">E-mail</label>
+                <input type="text" class="form-control" id="validationDefault02" value="endereço eletrônico" required>
+            </div>
+            </div>
+            <div class="form-row">
+            <div class="col-md-6 mb-3">
+                <label for="validationDefault03">Cidade</label>
+                <input type="text" class="form-control" id="validationDefault03" required>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="validationDefault04">Estado</label>
+                <select class="custom-select" id="validationDefault04" required>
+                <option selected disabled value="">Escolha</option>
+                <option>...</option>
+                </select>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label for="validationDefault05">CEP</label>
+                <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            </div>
+            <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                Aceite os termos e condições
+                </label>
+            </div>
+            </div>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+        </form>
+        <br />
+        <br />
+        <h2>Entre em contato</h2>
+        <ul>
+            <li>Telefone: (48) 2222-3333</li>
+            <li>E-mail: contato@afirma.com.br</li>
+        </ul>
+    </div>
+</body>
+</html>
